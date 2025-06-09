@@ -14,5 +14,6 @@ public class Lab005_NoMainMethod {
 
     public static void main(int i) {
         System.out.println(i);
+        System.out.println("yes");
     }
 }

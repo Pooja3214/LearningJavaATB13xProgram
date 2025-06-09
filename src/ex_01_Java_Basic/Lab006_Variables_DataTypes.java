@@ -9,6 +9,6 @@ public class Lab006_Variables_DataTypes {
 
         //a is variable that store 2 bytes of data
         int a= 5;
-
+        System.out.println(a);
     }
 }
