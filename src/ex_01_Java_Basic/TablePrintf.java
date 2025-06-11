@@ -8,9 +8,10 @@ public class TablePrintf {
 
         for(int i=1;i<=10;i++)
         {
+
            int res=n*i;
-            System.out.printf("%d x %d",n,i);
-            System.out.println(" = " +res);
+            System.out.printf("%d x %d = %d",n,i,res).println();
+//            System.out.println(" = " +res);
         }
 
     }
