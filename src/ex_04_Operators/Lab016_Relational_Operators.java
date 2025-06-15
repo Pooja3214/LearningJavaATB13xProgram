@@ -1,4 +1,4 @@
-package ex_01_Operators;
+package ex_04_Operators;
 
 public class Lab016_Relational_Operators {
 

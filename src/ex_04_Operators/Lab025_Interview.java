@@ -1,4 +1,4 @@
-package ex_01_Operators;
+package ex_04_Operators;
 
 public class Lab025_Interview {
     public static void main(String[] args) {

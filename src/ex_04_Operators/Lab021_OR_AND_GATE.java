@@ -1,4 +1,4 @@
-package ex_01_Operators;
+package ex_04_Operators;
 
 public class Lab021_OR_AND_GATE {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ex_01_Literals;
+package ex_02_Literals;
 
 public class Lab012_LiteralsTypes {
 //    boolean literal

@@ -1,4 +1,4 @@
-package ex_01_Operators;
+package ex_04_Operators;
 
 public class Lab020_Relational_Operator {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ex_01_Variables_DataType;
+package ex_03_Variables_DataType;
 
 public class Lab010_Constant {
     public static void main(String[] args) {
