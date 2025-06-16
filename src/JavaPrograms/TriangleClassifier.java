@@ -3,7 +3,7 @@ package JavaPrograms;
 public class TriangleClassifier {
     public static void main(String[] args) {
 
-        int s1=2; int s2=2; int s3=2;
+        int s1=2; int s2=2; int s3=3;
 
         if(s1==s2 && s2==s3)
         {
