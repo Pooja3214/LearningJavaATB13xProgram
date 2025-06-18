@@ -1,5 +1,7 @@
 package Programs;
 
+import java.util.Scanner;
+
 public class TriangleClassifier {
 
     public static void main(String[] args) {
@@ -16,5 +18,7 @@ if(a==b && b==c)
         else {
             System.out.println("Scalene Triangle");
         }
+
+
     }
 }
