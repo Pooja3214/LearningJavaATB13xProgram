@@ -1,4 +1,5 @@
 package Test26June;
+import java.time.Duration;
 
 public class StringPerformance {
     public static void main(String[] args) {
@@ -9,7 +10,10 @@ public class StringPerformance {
             s = s + "sh";
         }
         long endtime = System.nanoTime();
-        System.out.println("string concatenation time :" + (endtime - starttime));
+
+        Duration elapsed = Duration.ofNanos(endtime - starttime);
+        long milliseconds = elapsed.toMillis();
+        System.out.println("string concatenation time :" + (milliseconds));
 
         //String Builder performance
          starttime = System.nanoTime();
@@ -21,10 +25,13 @@ public class StringPerformance {
         }
         endtime = System.nanoTime();
 
-        System.out.println("string builder time :" +(endtime-starttime));
+         elapsed = Duration.ofNanos(endtime - starttime);
+         milliseconds = elapsed.toMillis();
+        System.out.println("string concatenation time :" + (milliseconds));
 
         //StringBuffer performance
         starttime = System.nanoTime();
+
         StringBuffer sbuffer = new StringBuffer();
         for(int i=0;i<=1000;i++)
         {
@@ -32,6 +39,9 @@ public class StringPerformance {
         }
 
         endtime = System.nanoTime();
-        System.out.println("string buffer time :" +(endtime-starttime));
+
+        elapsed = Duration.ofNanos(endtime - starttime);
+        milliseconds = elapsed.toMillis();
+        System.out.println("string concatenation time :" + (milliseconds));
     }
 }

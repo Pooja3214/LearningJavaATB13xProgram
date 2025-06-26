@@ -6,6 +6,8 @@ public class StringComparison {
         String s2= "hello";
         String s3= "Hello";
 
+        System.out.println( "Hello".compareToIgnoreCase("HELLO"));
+
     //    == operator
         System.out.println(s1==s2);
 
