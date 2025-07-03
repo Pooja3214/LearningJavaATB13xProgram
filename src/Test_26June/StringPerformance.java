@@ -1,4 +1,4 @@
-package Test26June;
+package Test_26June;
 import java.time.Duration;
 
 public class StringPerformance {

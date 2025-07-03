@@ -1,6 +1,4 @@
-package Test26June;
-
-import java.util.Scanner;
+package Test_26June;
 
 public class StringOperations {
     public static void main(String[] args) {

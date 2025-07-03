@@ -1,4 +1,4 @@
-package Test26June;
+package Test_26June;
 
 public class StringComparison {
     public static void main(String[] args) {
